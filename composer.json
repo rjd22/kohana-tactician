@@ -1,0 +1,21 @@
+{
+    "name": "rjd22/kohana-tactician",
+    "description": "Kohana PHP Framework module for Tactician",
+    "autoload": {
+      "psr-4": {
+        "Kohana\\Tactician\\": "src/"
+      }
+    },
+    "require": {
+        "league/tactician": "~0.6",
+        "kohana/core": "~3.3",
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert-Jan de Dreu",
+            "email": "robertjandreu@gmail.com"
+        }
+    ]
+}
